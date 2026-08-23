@@ -17,8 +17,8 @@ android {
         versionName = "1.0"
 
         // URL base de tu backend (FastAPI/Node). Cambiar por tu dominio real.
-        buildConfigField("String", "BASE_HTTP_URL", "\"https://tu-backend.com/\"")
-        buildConfigField("String", "BASE_WS_URL", "\"wss://tu-backend.com/ws/stream\"")
+        buildConfigField("String", "BASE_HTTP_URL", "\"https://TU_URL_AQUI/\"")
+        buildConfigField("String", "BASE_WS_URL", "\"wss://TU_URL_AQUI/ws/stream\"")
     }
 
     buildTypes {

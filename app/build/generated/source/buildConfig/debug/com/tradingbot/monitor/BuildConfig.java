@@ -10,7 +10,7 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
   // Field from default config.
-  public static final String BASE_HTTP_URL = "https://tu-backend.com/";
+  public static final String BASE_HTTP_URL = "https://TU_URL_AQUI/";
   // Field from default config.
-  public static final String BASE_WS_URL = "wss://tu-backend.com/ws/stream";
+  public static final String BASE_WS_URL = "wss://TU_URL_AQUI/ws/stream";
 }

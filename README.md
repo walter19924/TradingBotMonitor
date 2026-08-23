@@ -13,8 +13,8 @@ de trading (Data Layer + Logic Engine + Execution Engine + Risk Layer). La app N
 ## 2. Configurar la conexión al backend
 Edita `app/build.gradle.kts`:
 ```kotlin
-buildConfigField("String", "BASE_HTTP_URL", "\"https://tu-backend.com/\"")
-buildConfigField("String", "BASE_WS_URL", "\"wss://tu-backend.com/ws/stream\"")
+buildConfigField("String", "BASE_HTTP_URL", "\"https://TU_URL_AQUI/\"")
+buildConfigField("String", "BASE_WS_URL", "\"wss://TU_URL_AQUI/ws/stream\"")
 ```
 
 ## 3. Contrato que debe exponer tu Execution Engine (FastAPI/Node)
