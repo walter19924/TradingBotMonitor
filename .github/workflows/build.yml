@@ -22,7 +22,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Compilar APK Debug
-      run: ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx2048m" --no-daemon
+      run: ./gradlew assembleDebug --no-daemon
 
     - name: Subir APK
       uses: actions/upload-artifact@v4
